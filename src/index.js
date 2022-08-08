@@ -7,7 +7,9 @@ const app = express();
 
 app.get('/', (req, res, next) => {
 	res.send({
-		hola: 'mundo',
+		name: 'Hugo Andres',
+		lastName: 'Diaz Bernal',
+		age: 32,
 	});
 });
 
